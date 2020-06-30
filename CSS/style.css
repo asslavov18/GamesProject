@@ -3,54 +3,47 @@
 	padding: 0;
 	font-family: Century Gothic;
 }
+.wrapper{
+	width:1170px;
+	margin: auto;
 
-header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/background.jpg');
+}
+header {
+	background-image: url("images/game.jpg");
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
-
+	background-position: center center;
+	position: relative;
 }
 
-ul{
+.main {
 	float: right;
-	list-style-type: none; 
-	margin-top: 25px;
+	list-style-type: none;
+	margin-top: 3px;
 }
 
-
-ul li{
+.main li{
    display: inline-block;
 }
 
 
-ul li a{
+.main li a{
 	text-decoration: none;
 	color: white;
 	padding:5px 20px;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
 }
-ul li a:hover{
+.main li a:hover{
 background-color:#fff;
 color: #000;
 }
 
-
-ul li.active a{
+.main li.active a{
 	background-color:#fff;
 color: #000;
 }
 
-.logo img{
-	float:left;
-	width:150px;
-	height: auto; 
-}
-.main{
-	max-width: 1200px;
-	margin: auto;
-}
 .title{
 	position: absolute;
 	top: 50%;
