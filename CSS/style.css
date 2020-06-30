@@ -8,12 +8,12 @@
 	margin: auto;
 
 }
-header {
-	background-image: url("images/game.jpg");
+.header {
+	background-image: url("");
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
-	position: relative;
+	position: absolute;
 }
 
 .main {
