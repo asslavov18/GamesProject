@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <script>function myFunction() {
+        alert("Thank you for your sumbission!");
+        }
+      </script>
       <header>
           <div class="main">
               <div class="logo"> 
@@ -20,12 +24,12 @@
          </div>
               <div class="contact-section">
                   <div class="border"></div>
-                  <form class="contact-form" action="contactform.php" method="post">
+                  <form class="contact-form" action="index.html" method="post">
                       <input type="text" class="contact-form-text" placeholder="Your name">
                       <input type="email" class="contact-form-text" placeholder="Your email">
                       <input type="text" class="contact-form-text" placeholder="Your phone">
                       <textarea class="contact-form-text" placeholder="Your message"></textarea>
-                      <input type="submit" class="contact-form-btn" value="Send">
+                      <button onclick="myFunction()" id="SubmitButton">Submit</button>
                   </form>
               </div>
           </header>
